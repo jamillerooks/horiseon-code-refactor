@@ -58,7 +58,8 @@ p {
 
 /*The class has been changed to id since it is unique. Name changed from hero to digital-marketing-img*/
 #digital-marketing-img {
-    width: 2115px;
+    height: 800px;
+    width: 100%;
     margin-bottom: 25px;
 /*The background image has been replaced with inline images to accommodate the alt tag for accessibility*/ 
 }
@@ -110,9 +111,10 @@ p {
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
+    
 }
 
-.benefit h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
