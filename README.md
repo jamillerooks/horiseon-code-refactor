@@ -1,7 +1,10 @@
-# horiseon-code-refactor
+# Horiseon-code-Refactor
 
 # Description
 The goal of this project is to improve business website accessibility and SEO ranking.
+
+# Mock-Up
+<img src="./assets/images/01-html-css-git-mockup.png">
 
 # Contribution Guidelines
 Your suggestions are welcome to help us achieve the goal of improved website accessibility and SEO ranking. 
