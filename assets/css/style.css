@@ -52,14 +52,34 @@ p {
     font-size: 16px;
 }
 
-/*The hero class has been changed to hero id since it is unique*/
-#hero {
-    height: 800px;
-    width: 100%;
+/*The class has been changed to id since it is unique. Name changed from hero to digital-marketing-img*/
+#digital-marketing-img {
+    width: 2115px;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+/*The background image has been replaced with inline images to accommodate the alt tag for accessibility*/ 
+}
+/*The class content has been changed to marketing-services-container for better identification*/
+.marketing-services-container {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*The class content has been changed to marketing-services which combines search-engine-optimization, online-reputation-management, and social-media-marketing for better identification*/
+.marketing-services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.marketing-services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.marketing-services img {
+    max-height: 200px;
 }
 
 .float-left {
@@ -70,12 +90,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
@@ -135,60 +149,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
