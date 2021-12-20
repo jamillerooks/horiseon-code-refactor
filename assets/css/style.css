@@ -56,12 +56,17 @@ p {
     font-size: 16px;
 }
 
-/*The class has been changed to id since it is unique. Name changed from hero to digital-marketing-img*/
+/*Main section you can use to add containers - could be used as a background */
 
-#digital-marketing-img {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
+.hero {
+
+        height: 800px;
+        width: 100%;
+        margin-bottom: 25px;
+        background-image: url(../images/digital-marketing-meeting.jpg);
+        background-size: cover;
+        background-position: center;
+    }
      
 /*The background image has been replaced with inline images to accommodate the alt tag for accessibility*/ 
 }
