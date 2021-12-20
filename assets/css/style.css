@@ -3,10 +3,13 @@
     padding: 0;
     margin: 0;
 }
+:root{
+    --primary-color: #0072bb
+}
 
 body {
     background-color: #d9dcd6;
-}
+}   
 
 /*The header class id has been replaced with the header tag*/
 header {
@@ -16,36 +19,36 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+    header h1 {
     display: inline-block;
     font-size: 48px;
-}
-/*The seo class has been changed to seo id since it is unique*/
-header h1 #seo {
-    color: #d9dcd6;
-}
+    }
+    /*The seo class has been changed to seo id since it is unique*/
+    header h1 #seo {
+        color: #d9dcd6;
+    }
 
-/*The div has been replaced with nav*/
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
+    /*The div has been replaced with nav*/
+    header nav {
+        padding-top: 15px;
+        margin-right: 20px;
+        float: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
 
-header nav ul {
-    list-style-type: none;
-}
+    header nav ul {
+        list-style-type: none;
+    }
 
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-/*The hover highlights the item list for redirect*/
-nav ul li a:hover {
-    background-color: rgb(21, 185, 190);
-}
+    header nav ul li {
+        display: inline-block;
+        margin-left: 25px;
+    }
+    /*The hover highlights the item list for redirect*/
+    nav ul li a:hover {
+        background-color: rgb(21, 185, 190);
+    }
 
 a {
     color: #ffffff;
@@ -69,42 +72,42 @@ p {
     }
      
 /*The background image has been replaced with inline images to accommodate the alt tag for accessibility*/ 
-}
-/*The class content has been changed to marketing-services-container for better identification*/
-.marketing-services-container {
+
+/* The class content has been changed to marketing-services-container for better identification*/
+section.marketing-services-container {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/*The class content has been changed to marketing-services which combines search-engine-optimization, online-reputation-management, and social-media-marketing for better identification*/
-.marketing-services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+    /*The class content has been changed to marketing-services which combines search-engine-optimization, online-reputation-management, and social-media-marketing for better identification*/
+    article.marketing-services {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: var(--primary-color);
+        color: #ffffff;
+    }
 
-.marketing-services h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-.marketing-services img {
-    max-height: 200px;
-}
+        .marketing-services h2 {
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+        .marketing-services img {
+            max-height: 200px;
+        }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
+        .float-left {
+            float: left;
+            margin-right: 25px;
+        }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+        .float-right {
+            float: right;
+            margin-left: 25px;
+        }
 
-.benefits-container {
+section.benefits-container {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -121,16 +124,16 @@ p {
     
 }
 
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+        aside.benefits h3 {
+            margin-bottom: 10px;
+            text-align: center;
+        }
 
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+        .benefits img {
+            display: block;
+            margin: 10px auto;
+            max-width: 150px;
+        }
 
 /*The div has been replaced with footer tag*/
 footer {
@@ -140,9 +143,9 @@ footer {
     text-align: center;
 }
 
-footer h2 {
-    font-size: 20px;
-}
+        footer h2 {
+        font-size: 20px;
+        }
 /*
 @media only screen and (min-width: 480px), (orientation: landscape)  {
   /* ruleset for 320px - 480px */    
