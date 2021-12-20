@@ -138,3 +138,15 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/*
+@media only screen and (min-width: 480px), (orientation: landscape)  {
+  /* ruleset for 320px - 480px */    
+    }
+/*
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* ruleset  for screen size range the size of a tablet in landscape mode*/
+    }
+/*    
+@media only screen and (min-resolution: 300dpi) {
+    /* ruleset for high resolution screens */
+    }
