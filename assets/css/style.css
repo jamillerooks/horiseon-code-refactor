@@ -57,10 +57,12 @@ p {
 }
 
 /*The class has been changed to id since it is unique. Name changed from hero to digital-marketing-img*/
+
 #digital-marketing-img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+     
 /*The background image has been replaced with inline images to accommodate the alt tag for accessibility*/ 
 }
 /*The class content has been changed to marketing-services-container for better identification*/
